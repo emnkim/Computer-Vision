@@ -7,12 +7,14 @@
 // images.
 
 #pragma once
-
+#ifndef _HAS_STD_BYTE
+#define _HAS_STD_BYTE 0
+#endif
+#define byte unsigned char
 #include <string>
 using namespace std;
 
 // Each pixel color is stored as a value from 0..255 (an unsigned char)
-typedef unsigned char byte;
 
 // Each pixel has 3 color bands: red, green, and blue
 // (if it is a full color image) and an average color: grey

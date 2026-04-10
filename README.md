@@ -8,4 +8,4 @@ Projects and assignments for CSS487 - Computer Vision. This repo will be updated
 ## Programs
 | Program | Description |
 |---------|-------------|
-| [Program 1](./Program1/) | 2D Image Transformation |
+| [Program 1](./Project1/) | 2D Image Transformation |
